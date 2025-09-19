@@ -58,7 +58,7 @@ public final class Einstein {
         System.out.println("\033[0;31mSorry, we don't support negativity.");
       }
     } catch (InputMismatchException error) {
-      // Error message for non-numeric radius. [IN RED]
+      // Error message for non-numeric mass. [IN RED]
       System.out.println("\033[0;31mERROR: MASS VALUE MUST BE NUMERIC");
     }
   }
